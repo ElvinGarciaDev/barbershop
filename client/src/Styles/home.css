@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+
+  html {
+    /* 62.5% of 16px browser font size is 10px */
+    font-size: 62.5%;
+  }
+
+
+
+.img {
+    background-image: url("../assets/barber.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100vh;
+    background-attachment: fixed;
+
+
+  }
+
+
+  .topSection {
+    color: rgba(255,255,255, 1);
+    font-size: 5rem;
+    padding-top: 30rem;
+  }
+
+  #heading {
+    color: rgba(201, 161, 112, 1);
+
+  }
+
+  /* OUR STYLERS */
+
+  #stylers h1 {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  #stylers span {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+  #stylist img {
+    width: 100%;
+    height: auto;
+  }

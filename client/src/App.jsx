@@ -7,8 +7,6 @@ import Services from "./Pages/Services";
 import Bookings from "./Pages/Bookings";
 import Admin from "./Pages/Admin";
 
-import "./App.css";
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -21,27 +19,27 @@ function App() {
           {/* this Routes tag used to be called switch. You might see it in old code.*/}
           <Route
             path="/"
-            element={<Home />} /* When users visit "/" display the homepage*/
+            element={<Home />} 
           />
           <Route
             path="/staff"
-            element={<Staff />} /* When users visit "/" display the homepage*/
+            element={<Staff />} 
           />
           <Route
             path="/services"
             element={
               <Services />
-            } /* When users visit "/" display the homepage*/
+            } 
           />
           <Route
             path="/booking"
             element={
               <Bookings />
-            } /* When users visit "/" display the homepage*/
+            } 
           />
           <Route
             path="/admin"
-            element={<Admin />} /* When users visit "/" display the homepage*/
+            element={<Admin />} 
           />
         </Routes>
       </Router>
