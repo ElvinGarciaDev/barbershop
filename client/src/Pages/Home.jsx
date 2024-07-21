@@ -102,21 +102,36 @@ const Home = () => {
       </section>
 
       {/* ABOUT US */}
-      <section className="d-flex justify-content-between flex-wrap">
-        <div className="back-ground-img"></div>
-        <div className="about-us">
-          <img src="https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/387111636_800501562084717_1766583911539188881_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=TevLEo064MgQ7kNvgGHO7sb&_nc_ht=scontent-bos5-1.xx&oh=00_AYApZN4KHI_pPdQSxrzkSKu4K3pdO6wxqIwk3JwEwbyEBQ&oe=66A24D50"></img>
-          <h3>Cutting Hair with Style</h3>
-          <span>FOR GOODLOOKING MEN ONLY</span>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod temport.
-          </p>
-          <a>Book Now!</a>
+      <section className="about-us">
+        <div className="container">
+          <div>
+            <span>Barbershop</span>
+            <h3>As sublime for your senses</h3>
+            <p className="intro">
+              Pharetra mauris adipiscing erat, amet et donec elit, nunc vitae
+              cupidatat est vestibulum , nec enim libero tortor.
+            </p>
+          </div>
+
+          <div className=" about-us-pillers">
+            <div className="img-piller">
+              <img src="https://cutstyle.true-emotions.studio/wp-content/uploads/2020/07/bar1.jpg" />
+            </div>
+            <div>
+              <p className="our-history">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                voluptates quae mollitia dolorum possimus ipsa dolor distinctio,
+                doloremque repellat libero saepe ducimus dignissimos enim culpa
+                eligendi nostrum, iste modi sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                voluptates quae mollitia dolorum possimus ipsa dolor distinctio,
+                doloremque repellat libero saepe ducimus dignissimos enim culpa
+                eligendi nostrum, iste modi sequi.
+              </p>
+            </div>
+            <div className="img-piller">
+              <img src="https://cutstyle.true-emotions.studio/wp-content/uploads/2020/07/bar1.jpg" />
+            </div>
+          </div>
         </div>
       </section>
 
