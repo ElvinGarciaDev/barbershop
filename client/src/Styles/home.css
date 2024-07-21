@@ -180,3 +180,24 @@
     width: 100%;
     height: auto;
   }
+
+/* GALLERY */
+.back-ground-img {
+    width: 60%;
+}
+
+.back-ground-img {
+    background-image: url("https://cdn.shopify.com/s/files/1/0296/7109/6453/files/how_to_treat_beard_dandruff.jpg?v=1654174997");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 70vh;
+    filter: brightness(90%);
+}
+
+.about-us {
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+}
