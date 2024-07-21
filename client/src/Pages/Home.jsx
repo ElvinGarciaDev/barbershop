@@ -122,10 +122,11 @@ const Home = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                 voluptates quae mollitia dolorum possimus ipsa dolor distinctio,
                 doloremque repellat libero saepe ducimus dignissimos enim culpa
-                eligendi nostrum, iste modi sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                voluptates quae mollitia dolorum possimus ipsa dolor distinctio,
-                doloremque repellat libero saepe ducimus dignissimos enim culpa
-                eligendi nostrum, iste modi sequi.
+                eligendi nostrum, iste modi sequi. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Velit voluptates quae mollitia
+                dolorum possimus ipsa dolor distinctio, doloremque repellat
+                libero saepe ducimus dignissimos enim culpa eligendi nostrum,
+                iste modi sequi.
               </p>
             </div>
             <div className="img-piller">
@@ -135,7 +136,57 @@ const Home = () => {
         </div>
       </section>
 
-      {/* FOOTER */}
+      {/* Galllery */}
+      <section>
+        <div className="container gallery">
+          <div>
+            <h3>OUR WORK</h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img
+                src="https://images.pexels.com/photos/2040189/pexels-photo-2040189.jpeg?cs=srgb&dl=pexels-thgusstavo-2040189.jpg&fm=jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+              />
+
+              <img
+                src="https://images.fresha.com/lead-images/placeholders/barbershop-54.jpg?class=width-small"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Wintry Mountain Landscape"
+              />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img
+                src="https://preview.colorlib.com/theme/haircare/images/work-8.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Mountains in the Clouds"
+              />
+
+              <img
+                src="https://preview.colorlib.com/theme/haircare/images/work-7.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water"
+              />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img
+                src="https://images.fresha.com/lead-images/placeholders/barbershop-54.jpg?class=width-small"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Waves at Sea"
+              />
+
+              <img
+                src="https://preview.colorlib.com/theme/haircare/images/work-3.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Yosemite National Park"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
