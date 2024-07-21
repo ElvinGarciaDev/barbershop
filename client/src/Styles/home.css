@@ -45,26 +45,6 @@
 
   }
 
-  /* OUR STYLERS */
-
-  #stylers h1 {
-    text-align: center;
-    padding-bottom: 3rem;
-  }
-
-  #stylers span {
-    display: block;
-    text-align: center;
-    font-size: 2rem;
-    padding-top: 2rem;
-  }
-
-
-  #stylist img {
-    width: 100%;
-    height: auto;
-  }
-
   /* MENU */
 
   .menuSection {
@@ -77,7 +57,6 @@
     margin: auto;
     text-align: center;
     font-size: 2rem;
-    margin-top: 5%;
     padding-top: 5rem;
     
   }
@@ -133,7 +112,7 @@
     font-weight: lighter;
   }
 
-  /* Responsive Design */
+  /* Responsive Design for Service menu*/
 @media (max-width: 768px) {
     .services div {
         width: 45%;
@@ -181,3 +160,23 @@
         font-size: 1rem;
     }
 }
+
+  /* OUR STYLERS */
+
+  #stylers h1 {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  #stylers span {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+
+  #stylist img {
+    width: 100%;
+    height: auto;
+  }
